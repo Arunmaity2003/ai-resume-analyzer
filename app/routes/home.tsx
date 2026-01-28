@@ -23,7 +23,7 @@ export default function Home() {
     if (!auth.isAuthenticated) navigate('/auth?next=/')
   }, [auth.isAuthenticated])
 
-  return <main className="bg-url[url('/image/bg-main.svg')] bg-cover">
+  return <main className="bg-url[url('/images/bg-main.svg')] bg-cover">
     <Navbar />
     <section className="main-section justify-center py-16">
       <div className="page-heading">
